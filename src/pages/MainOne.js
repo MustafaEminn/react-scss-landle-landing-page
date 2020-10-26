@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/MainOne.scss";
 import MainOneSvg from "../images/main1/1.svg";
 import MainOneRightWebp from "../images/main1/mainRight.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function MainOne() {
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
+
   return (
     <>
-      <section className="mainone grid">
+      <section data-aos="zoom-out-down" className="mainone grid">
         <div className="mainone--left">
           <h1 className="mainone__h1--1">Light, Fast & Powerful</h1>
           <p className="mainone__p--1">

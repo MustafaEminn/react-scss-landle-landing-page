@@ -1,0 +1,48 @@
+@import "./grid.scss";
+
+.mainfour--left {
+	grid-column: 2/6;
+	margin-top: 232px;
+
+	& img {
+		position: relative;
+	}
+}
+
+.mainfour--right {
+	grid-column: 8/12;
+	position: relative;
+	left: -32px;
+	margin-top: 234px;
+
+	& h1 {
+		font-family: Roboto;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 48px;
+		color: #091133;
+	}
+
+	& p {
+		margin-top: 16px;
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 26px;
+		color: #6f7cb2;
+	}
+
+	& a {
+		position: relative;
+		top: 40px;
+		font-family: Roboto;
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 24px;
+		text-align: center;
+		color: #ffffff;
+		padding: 7.5px 30px;
+		background: #111b47;
+		border-radius: 2px;
+	}
+}

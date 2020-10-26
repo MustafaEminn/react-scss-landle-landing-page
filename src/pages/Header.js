@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Header.scss";
 import HeaderRight from "../images/header/headerRight.webp";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 export default function Header() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
-      <section className="Header grid">
+      <section data-aos="zoom-out-down" className="Header grid">
         <div className="header--left">
           <h1>Introduce Your Product Quickly & Effectively</h1>
           <p>

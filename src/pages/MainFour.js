@@ -1,21 +1,21 @@
 import React, { useEffect } from "react";
-import "../styles/MainTwo.scss";
-import MainTwoWebp from "../images/main2/main2Left.webp";
+import "../styles/MainFour.scss";
+import MainFourWebp from "../images/main4/main4Left.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function MainTwo() {
+export default function MainFour() {
   useEffect(() => {
     AOS.init({ duration: 500 });
   }, []);
 
   return (
     <>
-      <section data-aos="zoom-out-down" className="maintwo grid">
-        <div className="maintwo--left">
-          <img src={MainTwoWebp} alt="Rose woman cloud" />
+      <section data-aos="zoom-out-down" className="mainfour grid">
+        <div className="mainfour--left">
+          <img src={MainFourWebp} alt="Rose woman east" />
         </div>
-        <div className="maintwo--right">
+        <div className="mainfour--right">
           <h1>Light, Fast & Powerful</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -24,6 +24,7 @@ export default function MainTwo() {
             Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
             Nulla consequat massa quis enim.
           </p>
+          <a href="/">Purchase Now</a>
         </div>
       </section>
     </>
