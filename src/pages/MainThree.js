@@ -13,7 +13,11 @@ export default function MainThree() {
     <>
       <section data-aos="zoom-out-down" className="mainthree grid">
         <div className="mainthree--left">
-          <img src={MainThreeWebp} alt="tree telephone man heart" />
+          <img
+            src={MainThreeWebp}
+            alt="tree telephone man heart"
+            loading="lazy"
+          />
         </div>
         <div className="mainthree--right">
           <h1>Light, Fast & Powerful</h1>

@@ -24,7 +24,7 @@ export default function MainOne() {
           </p>
           <div className="mainone--titles">
             <div className="mainone--titles--one">
-              <img src={MainOneSvg} alt="pencil paper svg" />
+              <img src={MainOneSvg} alt="pencil paper svg" loading="lazy" />
               <h1>Title Goes Here</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

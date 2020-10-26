@@ -13,7 +13,7 @@ export default function MainFour() {
     <>
       <section data-aos="zoom-out-down" className="mainfour grid">
         <div className="mainfour--left">
-          <img src={MainFourWebp} alt="Rose woman east" />
+          <img src={MainFourWebp} alt="Rose woman east" loading="lazy" />
         </div>
         <div className="mainfour--right">
           <h1>Light, Fast & Powerful</h1>

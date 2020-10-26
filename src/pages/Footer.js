@@ -36,31 +36,31 @@ export default function Footer() {
           <ul className="footer--socials">
             <li>
               <a href="/">
-                <img src={FooterSocial1} alt="Facebook" />
+                <img src={FooterSocial1} alt="Facebook" loading="lazy" />
               </a>
             </li>
 
             <li>
               <a href="/">
-                <img src={FooterSocial2} alt="Linkedin" />
+                <img src={FooterSocial2} alt="Linkedin" loading="lazy" />
               </a>
             </li>
 
             <li>
               <a href="/">
-                <img src={FooterSocial3} alt="Twitter" />
+                <img src={FooterSocial3} alt="Twitter" loading="lazy" />
               </a>
             </li>
 
             <li>
               <a href="/">
-                <img src={FooterSocial4} alt="Youtube" />
+                <img src={FooterSocial4} alt="Youtube" loading="lazy" />
               </a>
             </li>
 
             <li>
               <a href="/">
-                <img src={FooterSocial5} alt="instagram" />
+                <img src={FooterSocial5} alt="instagram" loading="lazy" />
               </a>
             </li>
           </ul>

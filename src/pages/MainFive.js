@@ -13,7 +13,7 @@ export default function MainFive() {
     <>
       <section data-aos="zoom-out-down" className="mainfive grid">
         <div className="mainfive--background">
-          <img src={MainFiveWebp} alt="angle" />
+          <img src={MainFiveWebp} alt="angle" loading="lazy" />
         </div>
         <div className="mainfive--content">
           <h1>A Price To Suit Everyone</h1>

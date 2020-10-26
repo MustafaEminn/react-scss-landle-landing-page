@@ -13,7 +13,7 @@ export default function MainTwo() {
     <>
       <section data-aos="zoom-out-down" className="maintwo grid">
         <div className="maintwo--left">
-          <img src={MainTwoWebp} alt="Rose woman cloud" />
+          <img src={MainTwoWebp} alt="Rose woman cloud" loading="lazy" />
         </div>
         <div className="maintwo--right">
           <h1>Light, Fast & Powerful</h1>
