@@ -7,6 +7,7 @@ import MainTwo from "./pages/MainTwo";
 import MainThree from "./pages/MainThree";
 import MainFour from "./pages/MainFour";
 import MainFive from "./pages/MainFive";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <MainThree />
       <MainFour />
       <MainFive />
+      <Footer />
     </div>
   );
 }
