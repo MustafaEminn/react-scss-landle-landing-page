@@ -1,1 +1,78 @@
 @import "../styles/grid.scss";
+
+.mainone--left {
+	grid-column: 2/6;
+	margin-top: 160px;
+
+	& .mainone__h1--1 {
+		font-family: Roboto;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 48px;
+		color: #091133;
+	}
+
+	& .mainone__p--1 {
+		margin-top: 16px;
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 26px;
+		color: #6f7cb2;
+	}
+
+	& .mainone--titles {
+		display: flex;
+		flex-direction: row;
+
+		& .mainone--titles--one img {
+			margin-top: 80px;
+		}
+
+		& .mainone--titles--one h1 {
+			margin-top: 14px;
+			font-family: Roboto;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 26px;
+			color: #091133;
+		}
+
+		& .mainone--titles--one p {
+			margin-top: 6px;
+			font-family: Roboto;
+			font-size: 12px;
+			line-height: 18px;
+			color: #5d6970;
+		}
+
+		& .mainone--titles--two {
+			margin-left: 30px;
+		}
+
+		& .mainone--titles--two img {
+			margin-top: 80px;
+		}
+
+		& .mainone--titles--two h1 {
+			margin-top: 14px;
+			font-family: Roboto;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 26px;
+			color: #091133;
+		}
+
+		& .mainone--titles--two p {
+			margin-top: 6px;
+			font-family: Roboto;
+			font-size: 12px;
+			line-height: 18px;
+			color: #5d6970;
+		}
+	}
+}
+
+.mainone--right {
+	margin-top: 109px;
+	grid-column: 7/11;
+}
