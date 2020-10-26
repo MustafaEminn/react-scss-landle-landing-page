@@ -1,0 +1,73 @@
+@import "./grid.scss";
+
+.Header {
+	position: relative;
+}
+
+.header--left {
+	grid-column: 2/7;
+	margin-top: 261px;
+	max-width: 526.25px;
+	position: absolute;
+	z-index: 2;
+
+	& h1 {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 50px;
+		letter-spacing: 1px;
+		color: #091133;
+		line-height: 66px;
+		max-width: 526px;
+	}
+
+	& p {
+		font-family: Roboto;
+		font-style: normal;
+		font-size: 18px;
+		color: #505f98;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+
+	& .header--span {
+		margin-top: 69px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	& .header--span a {
+		font-family: Roboto;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	& .header--a1 {
+		padding: 14px 60px;
+		background-color: #111b47;
+		border-radius: 2px;
+		color: #ffffff;
+	}
+
+	& .header--a2 {
+		margin-left: 30px;
+		padding: 14px 74px;
+		background-color: transparent;
+		border-radius: 2px;
+		color: #091133;
+		border: 2px solid #091133;
+	}
+}
+
+.header--right {
+	grid-column: 4/13;
+	& img {
+		width: 870px;
+		position: absolute;
+		right: 0px;
+	}
+}

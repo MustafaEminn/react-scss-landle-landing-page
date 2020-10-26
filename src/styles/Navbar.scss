@@ -1,0 +1,60 @@
+@import "./grid.scss";
+
+.Navbar {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	max-width: 1440px;
+}
+
+nav {
+	grid-column: 2/5;
+
+	& .navbar--ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	& .navbar--ul li {
+		margin-top: 18px;
+		margin-left: 60px;
+	}
+
+	& .navbar--ul li:nth-child(1) {
+		margin-left: 0px;
+	}
+	& .navbar--ul li a {
+		text-decoration: none;
+		color: #505f98;
+		font-family: Roboto;
+	}
+}
+
+.logo {
+	grid-column: 6/8;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 26px;
+	color: #37447e;
+	display: block;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.navbar--span {
+	grid-column: 9/13;
+	margin: 0 auto;
+	margin-top: 15px;
+
+	& a {
+		text-decoration: none;
+		font-family: Roboto;
+		font-size: 12px;
+		font-weight: 500;
+		padding: 9px 80px;
+		line-height: 18px;
+		text-align: center;
+		background-color: #111b47;
+		color: #ffffff;
+	}
+}
