@@ -1,14 +1,14 @@
-*Figmadan React'e geçirilmiştir. Sadece desktop boyutları olduğu için responsive yapmadım.*
+*Figma to react website.*
 
-Site tanıtım videosu:
+Introduction Video:
 
 https://www.youtube.com/watch?v=3GCsMEW1cm0&feature=youtu.be
 
-Lighthouse değerleri:
+Lighthouse result:
 
 ![](https://i.hizliresim.com/rF4ByD.png)
 
-# Kurulum
+# Installation
 
 **npm install**
 
